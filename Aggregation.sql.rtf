@@ -219,6 +219,20 @@ WHERE LAT_N < 137.2345
 ORDER BY LAT_N DESC 
 LIMIT 1;
 
+13. Weather Observation Station 16
+
+Query the smallest Northern Latitude (LAT_N) from STATION that is greater than 38.7780. Round your answer to 4 decimal places.
+
+Solution:
+
+SELECT ROUND(LAT_N, 4) AS NORTHERN_LATITUDE
+FROM STATION 
+WHERE LAT_N > 38.7780 
+ORDER BY LAT_N 
+LIMIT 1;
+
+
+
 
 
 
